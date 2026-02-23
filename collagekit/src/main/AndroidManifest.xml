@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    
+    <!-- Storage permissions - optional, will be merged with app's permissions -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" 
+        android:maxSdkVersion="32" 
+        tools:node="replace" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+</manifest>

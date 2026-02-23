@@ -1,0 +1,22 @@
+*.iml
+.gradle
+.kotlin
+/local.properties
+local.properties
+
+# IDE
+.idea/
+.DS_Store
+
+# Build outputs
+build/
+/captures
+.externalNativeBuild
+.cxx
+
+# Profiling
+*.hprof
+
+# Error logs
+app_error.txt
+build_error.txt
